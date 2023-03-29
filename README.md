@@ -6,7 +6,7 @@ This is a TypeScript/React component that allows you to add a background image t
 
 ### Demo
 
-[See it in demo](https://use-react-typing-demo.vercel.app/)
+[See it in demo](https://react-background-image-demo.vercel.app/)
 
 ### Installation
 

@@ -12,9 +12,11 @@ export declare interface Props {
 
 export declare type BG = ({ imgUrl, children, attatchment, position, repeat, size }: Props) => JSX.Element;
 
-export const BackGroundImage: BG = ({ imgUrl, children, attatchment = "bg-fixed", position = "bg-center", repeat = "bg-no-repeat", size = "bg-cover" }: Props) => {
+export const BackGroundImage: BG = ({ imgUrl, children, attatchment = "bg-fixed", position = "bg-top", repeat = "bg-no-repeat", size = "bg-cover" }: Props) => {
+  let isFullScreenHeigth = "h-screen";
+  if (children) isFullScreenHeigth = '';
   return (
-    <div className={`${attatchment} ${position} ${size} ${repeat}`} style={{ backgroundImage: `url("${imgUrl}")` }}>
+    <div className={`${isFullScreenHeigth} ${attatchment} ${position} ${size} ${repeat}`} style={{ backgroundImage: `url("${imgUrl}")` }}>
       {children}
     </div>
   )

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -35,7 +35,7 @@
   },
   "name": "react-background-image",
   "author": "ismail salmi",
-  "module": "dist/use-react-background-image.esm.js",
+  "module": "dist/react-background-image.esm.js",
   "size-limit": [
     {
       "path": "dist/react-background-image.cjs.production.min.js",
