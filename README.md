@@ -48,6 +48,3 @@ import { BackGroundImage } from 'background-image-react';
   // optional children elements
 </BackGroundImage>
 ```
-
-
-"# react-background-image" 
